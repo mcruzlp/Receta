@@ -1,0 +1,16 @@
+body {
+	background-image: url("../images/tablecloth-2478427__340.jpg");
+	background-size: cover;
+}
+
+#container {
+	background-color: #fff;
+	width: 80%;
+	margin: auto;
+	box-sizing: border-box; /*cualquier padding se toma dentro dl tamaño especiicado, no se amplía el ancho*/
+	padding: 40px;
+}
+
+h1{
+	text-align:center;
+}
