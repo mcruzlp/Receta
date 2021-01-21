@@ -9,8 +9,66 @@ body {
 	margin: auto;
 	box-sizing: border-box; /*cualquier padding se toma dentro dl tamaño especiicado, no se amplía el ancho*/
 	padding: 40px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 20px rgba(73, 88, 133, 0.5);
+	overflow: auto;
 }
 
 h1{
 	text-align:center;
+}
+
+h1,h2{
+	color: royalblue;
+	text-decoration: underline;
+}
+
+dt{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 2vw; /*para el tamaño relativo de la fuente usar vw*/
+	color: rgb(45, 70, 146);
+}
+
+#tortillaIngredientes{
+	float: right;
+	width: 40%;
+}
+table{
+	border: 1px solid rgb(45, 70, 146);
+	border-collapse: collapse;
+}
+
+td{
+	border: 1px solid rgb(45, 70, 146);
+	width: 15vw;
+	text-align: center;
+}
+
+th{
+	text-transform: uppercase;
+	background-color: grey;
+	color: white;
+}
+
+#recreo{
+	letter-spacing: 10px;
+}
+
+/************** media queries *****************/
+
+@media only screen and (max-width:600px){
+	#foto{
+		width: 100px;
+	}
+
+	#container {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width:1000px){
+	dt{
+		font-size: 1.5em;
+	}
 }
